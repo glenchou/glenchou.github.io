@@ -20,7 +20,7 @@ title: Glen Chou
 
 <div style="width: 90%; max-width: 1200px; overflow: hidden; border: 1px solid #ccc; padding: 10px; margin:  0 auto;">
   <div id="content" style="max-height: 60px; overflow: hidden; transition: max-height 0.5s ease;">
-    <p><span style="color:  red;"><b><i>News:</i></b></span> I am actively recruiting PhD students to join our lab in Fall 2025. Interested GT UG and MS students are also encouraged to reach out. Please see the <a href="https://trustworthyrobotics.github.io/">lab website</a> for more details.</p>
+    <p><span style="color:  red;"><b><i>News:</i></b></span> I am actively recruiting PhD students to join our lab in Fall 2025. The application deadlines range from <span style="color:  red;"><b>December 2, 2024</b></span> to <span style="color:  red;"><b>December 16, 2024</b></span> - please check out the <a href="https://trustworthyrobotics.github.io/phd_flyer.pdf">recruitment flyer</a> for more details. Interested GT UG and MS students are also encouraged to reach out. Please see the <a href="https://trustworthyrobotics.github.io/">lab website</a> for more details.</p>
     <p><i><b>Oct. 22, 2024.</b></i> I am joining Georgia Tech as an assistant professor in Nov. 2024.</p>
   </div>
   <button id="moreButton" onclick="revealMore()" style="margin-top: 10px;">More</button>
