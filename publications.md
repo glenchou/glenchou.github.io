@@ -73,7 +73,7 @@ function toggleInfo(articleid,info) {
 		<em>Zhouyu Zhang\*, Chih-Yuan Chiu\*, **Glen Chou**</em> <br> 
 		IEEE Robotics and Automation Letters (RA-L), vol. 11, no. 6, pp. 6696-6703, March 2026. <br>
 		[<a href="javascript:toggleInfo(&#39;Zhang26a&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Zhang26a&#39;); ">Abstract</a>]
-                 \[[arXiv](https://arxiv.org/abs/2508.19945)\] \[[PDF](https://ieeexplore.ieee.org/document/11455925)\] \[<a href="https://doi.org/10.1109/LRA.2026.3677745">DOI</a>\] \[<a href="https://www.youtube.com/watch?v=mN1X_2R9EtQ">Supplementary Video</a>\] [<a href="javascript:toggleInfo(&#39;Zhang26a&#39;,&#39;bibtex&#39;)">Cite</a>]</td>
+                 \[[arXiv](https://arxiv.org/abs/2508.19945)\] \[[PDF](https://ieeexplore.ieee.org/document/11455925)\] \[<a href="https://doi.org/10.1109/LRA.2026.3677745">DOI</a>\] \[<a href="https://www.youtube.com/watch?v=62HpDQlrQiI">Supplementary Video</a>\] [<a href="javascript:toggleInfo(&#39;Zhang26a&#39;,&#39;bibtex&#39;)">Cite</a>]</td>
 </tr>
 <tr id="abs_Zhang26a" class="abstract noshow">
     <td colspan="3"><div align="justify"> <b>Abstract</b>: We present an inverse dynamic game-based algorithm to learn parametric constraints from a given dataset of local Nash equilibrium interactions between multiple agents. Specifically, we introduce mixed-integer linear programs (MILP) encoding the Karush-Kuhn-Tucker (KKT) conditions of the interacting agents, which recover constraints consistent with the local Nash stationarity of the interaction demonstrations. We establish theoretical guarantees that our method learns inner approximations of the true safe and unsafe sets. We also use the interaction constraints recovered by our method to design motion plans that robustly satisfy the underlying constraints. Across simulations and hardware experiments, our methods accurately inferred constraints and designed safe interactive motion plans for various classes of constraints, both convex and non-convex, from interaction demonstrations of agents with nonlinear dynamics. </div></td>
@@ -335,7 +335,7 @@ function toggleInfo(articleid,info) {
 		<em>Wei-Chen Li, **Glen Chou**</em> <br> 
 		 Proceedings of the 43rd IEEE International Conference on Robotics and Automation (ICRA), June 2026. <br>
 		[<a href="javascript:toggleInfo(&#39;Li26a&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Li26a&#39;); ">Abstract</a>]
-                \[[arXiv](https://arxiv.org/abs/2509.13434)\] \[<a href="https://arxiv.org/pdf/2509.13434">PDF</a>\] \[<a href="https://github.com/wei-chen-li/drake-DER">Code</a>\] \[<a href="https://www.youtube.com/watch?v=wnrnlKkI7yQ">Video</a>\] [<a href="javascript:toggleInfo(&#39;Li26a&#39;,&#39;bibtex&#39;)">Cite</a>]
+                \[[arXiv](https://arxiv.org/abs/2509.13434)\] \[<a href="https://arxiv.org/pdf/2509.13434">PDF</a>\] \[<a href="https://github.com/wei-chen-li/drake-DER">Code</a>\] \[<a href="https://www.youtube.com/watch?v=EZtgBe6Hdfo">Video</a>\] [<a href="javascript:toggleInfo(&#39;Li26a&#39;,&#39;bibtex&#39;)">Cite</a>]
     </td>
 </tr>
 <tr id="abs_Li26a" class="abstract noshow">
@@ -355,7 +355,7 @@ function toggleInfo(articleid,info) {
 		<em>Kasidit Muenprasitivej, Ye Zhao, **Glen Chou**</em> <br> 
 		 Proceedings of the 43rd IEEE International Conference on Robotics and Automation (ICRA), June 2026. <br>
 		[<a href="javascript:toggleInfo(&#39;Muenprasitivej26a&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Muenprasitivej26a&#39;); ">Abstract</a>]
-                \[[arXiv](https://arxiv.org/abs/2510.07725)\] \[<a href="https://arxiv.org/pdf/2510.07725">PDF</a>\] \[<a href="https://github.com/meilongzhang/Polar-Hierarchical-Mamba">Video</a>\] [<a href="javascript:toggleInfo(&#39;Muenprasitivej26a&#39;,&#39;bibtex&#39;)">Cite</a>]
+                \[[arXiv](https://arxiv.org/abs/2510.07725)\] \[<a href="https://arxiv.org/pdf/2510.07725">PDF</a>\] \[<a href="https://www.youtube.com/watch?v=ntlGhmgGbhw">Video</a>\] [<a href="javascript:toggleInfo(&#39;Muenprasitivej26a&#39;,&#39;bibtex&#39;)">Cite</a>]
     </td>
 </tr>
 <tr id="abs_Muenprasitivej26a" class="abstract noshow">
@@ -374,7 +374,7 @@ function toggleInfo(articleid,info) {
 		<em>Shuyu Zhan\*, Chih-Yuan Chiu\*, Antoine Leeman, **Glen Chou**</em> <br> 
 		 Proceedings of the 43rd IEEE International Conference on Robotics and Automation (ICRA), June 2026. <br>
 		[<a href="javascript:toggleInfo(&#39;Zhan26a&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Zhan26a&#39;); ">Abstract</a>]
-                \[[arXiv](https://arxiv.org/abs/2509.16826)\] \[<a href="https://arxiv.org/pdf/2509.16826">PDF</a>\] \[<a href="https://github.com/nexuszhan/Robust-Dynamic-Game-SLS">Code</a>\] \[<a href="https://github.com/meilongzhang/Polar-Hierarchical-Mamba">Video</a>\] [<a href="javascript:toggleInfo(&#39;Zhan26a&#39;,&#39;bibtex&#39;)">Cite</a>]
+                \[[arXiv](https://arxiv.org/abs/2509.16826)\] \[<a href="https://arxiv.org/pdf/2509.16826">PDF</a>\] \[<a href="https://github.com/trustworthyrobotics/Robust-Dynamic-Game-SLS">Code</a>\] \[<a href="https://www.youtube.com/watch?v=fzOfpO_ugsc">Video</a>\] [<a href="javascript:toggleInfo(&#39;Zhan26a&#39;,&#39;bibtex&#39;)">Cite</a>]
     </td>
 </tr>
 <tr id="abs_Zhan26a" class="abstract noshow">
@@ -393,7 +393,7 @@ function toggleInfo(articleid,info) {
 		<em>Devesh Nath\*, Haoran Yin\*, **Glen Chou**</em> <br> 
 		 Proceedings of the 43rd IEEE International Conference on Robotics and Automation (ICRA), June 2026. <br>
 		[<a href="javascript:toggleInfo(&#39;Nath26a&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Nath26a&#39;); ">Abstract</a>]
-                \[[arXiv](https://arxiv.org/abs/2509.19688)\] \[<a href="https://arxiv.org/pdf/2509.19688">PDF</a>\] \[<a href="https://github.com/meilongzhang/Polar-Hierarchical-Mamba">Video</a>\] [<a href="javascript:toggleInfo(&#39;Nath26a&#39;,&#39;bibtex&#39;)">Cite</a>]
+                \[[arXiv](https://arxiv.org/abs/2509.19688)\] \[<a href="https://arxiv.org/pdf/2509.19688">PDF</a>\] \[<a href="https://www.youtube.com/watch?v=K8ppu6AaOxw">Video</a>\] [<a href="javascript:toggleInfo(&#39;Nath26a&#39;,&#39;bibtex&#39;)">Cite</a>]
     </td>
 </tr>
 <tr id="abs_Nath26a" class="abstract noshow">
@@ -412,7 +412,7 @@ function toggleInfo(articleid,info) {
 		<em>Botao He\*, Amir Hossein Shahidzadeh\*, Yu Chen\*, Jiayi Wu, Tianrui Guan, Guofei Chen, Howie Choset, Dinesh Manocha, **Glen Chou**, Cornelia Fermuller, Yiannis Aloimonos</em> <br> 
 		 Proceedings of the 43rd IEEE International Conference on Robotics and Automation (ICRA), June 2026. <br>
 		[<a href="javascript:toggleInfo(&#39;He26a&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/He26a&#39;); ">Abstract</a>]
-                \[[arXiv](https://arxiv.org/abs/2509.12747)\] \[<a href="https://arxiv.org/pdf/2509.12747">PDF</a>\] \[<a href="https://github.com/meilongzhang/Polar-Hierarchical-Mamba">Video</a>\] [<a href="javascript:toggleInfo(&#39;He26a&#39;,&#39;bibtex&#39;)">Cite</a>]
+                \[[arXiv](https://arxiv.org/abs/2509.12747)\] \[<a href="https://arxiv.org/pdf/2509.12747">PDF</a>\] \[<a href="https://www.youtube.com/watch?v=D9CSTXQi0Wk&pp=0gcJCcMKAYcqIYzv">Video</a>\] [<a href="javascript:toggleInfo(&#39;He26a&#39;,&#39;bibtex&#39;)">Cite</a>]
     </td>
 </tr>
 <tr id="abs_He26a" class="abstract noshow">
