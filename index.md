@@ -7,9 +7,9 @@ title: Glen Chou
     <div style="flex: 1;">
         <span style="font-weight:bold">Assistant Professor</span><br>
         <span style="font-weight:bold">Georgia Institute of Technology</span><br>
-        <span style="font-weight:bold">Office</span>: CODA E0962B<br>
+        <span style="font-weight:bold">Office</span>: CODA E0970B<br>
         <span style="font-weight:bold">Email: </span>chou [at] gatech [dot] edu<br>
-        <span style="font-weight:bold"> <a href="cv_10_22_24.pdf"> CV</a>&nbsp;&nbsp;|&nbsp;  </span>
+        <span style="font-weight:bold"> <a href="cv_apr_26.pdf"> CV</a>&nbsp;&nbsp;|&nbsp;  </span>
         <span style="font-weight:bold"><i class="ai ai-google-scholar-square ai-1x"></i> <a href="https://scholar.google.com/citations?user=90whi3wAAAAJ&hl">Scholar</a>&nbsp;&nbsp;|&nbsp;  </span>
         <span style="font-weight:bold"><i class="ai ai-researchgate-square ai-1x"></i> <a href="https://www.researchgate.net/profile/Glen_Chou"> ResearchGate</a>  </span>
     </div>
@@ -18,10 +18,16 @@ title: Glen Chou
     </div>
 </div>
 
-<div style="width: 90%; max-width: 1200px; overflow: hidden; border: 1px solid #ccc; padding: 10px; margin:  0 auto;">
-  <div id="content" style="max-height: 60px; overflow: hidden; transition: max-height 0.5s ease;">
-    <p><span style="color:  red;"><b><i>News:</i></b></span> I am actively recruiting PhD students to join our lab in Fall 2025. The application deadlines range from <span style="color:  red;"><b>December 2, 2024</b></span> to <span style="color:  red;"><b>December 16, 2024</b></span> - please check out the <a href="https://trustworthyrobotics.github.io/phd_flyer.pdf">recruitment flyer</a> for more details. Interested GT UG and MS students are also encouraged to reach out. Please see the <a href="https://trustworthyrobotics.github.io/">lab website</a> for more details.</p>
-    <p><i><b>Oct. 22, 2024.</b></i> I am joining Georgia Tech as an assistant professor in Nov. 2024.</p>
+<div style="width: 95%; max-width: 1600px; overflow: hidden; border: 1px solid #ccc; padding: 10px; margin:  0 auto;">
+  <div id="content" style="max-height: 260px; overflow: hidden; transition: max-height 0.5s ease;">
+    <i><b>Mar. 3, 2026.</b></i> One paper (on <a href="https://arxiv.org/abs/2508.19945">multi-agent constraint learning</a>) accepted to the IEEE Robotics and Automation Letters (RA-L).<br>
+    <i><b>Feb. 21, 2026.</b></i> One paper (on <a href="https://arxiv.org/abs/2511.19878">robust fine-tuning for improving OOD generalization of VLA models</a>) accepted to CVPR 2026.<br>
+    <i><b>Jan. 31, 2026.</b></i> Five papers (on <a href="https://arxiv.org/abs/2509.13434">deformable object simulation via convex optimization</a>, <a href="https://arxiv.org/abs/2509.16826">robust feedback motion planning for multi-agent systems</a>, <a href="https://arxiv.org/abs/2510.07725">probabilistically-safe locomotion</a>, <a href="https://arxiv.org/abs/2509.19688">formal verification for generative motion planners</a>, and <a href="https://arxiv.org/abs/2509.12747">navigation via a hybrid mixture of learning-based and model-based experts</a>) accepted to ICRA 2026.<br>
+    <i><b>Jan. 26, 2026.</b></i> One paper (on <a href="https://arxiv.org/abs/2509.15109">learning constraints from stochastic demonstrations</a>) accepted to the IEEE Control Systems Letters (L-CSS), with presentation at ACC 2026.<br>
+    <i><b>Jan. 22, 2026.</b></i> Three papers (on <a href="https://arxiv.org/abs/2601.01076">Koopman-based reachability analysis</a> (<span style="color:  red;">selected for oral presentation</span>), <a href="https://arxiv.org/abs/2602.12047">stastically-assured robust MPC via conformal prediction</a>, and <a href="https://arxiv.org/abs/2512.22757">active constraint learning</a>) accepted to L4DC 2026.<br>
+    <i><b>Nov. 11, 2025.</b></i> One paper (on <a href="https://arxiv.org/abs/2506.06944">fast LiDAR perception from streaming data</a>) accepted to WACV 2026.<br>
+    <span style="color:  red;"><b><i>News:</i></b></span> I am actively recruiting PhD students to join our lab in Fall 2025. The application deadlines range from <span style="color:  red;"><b>December 2, 2024</b></span> to <span style="color:  red;"><b>December 16, 2024</b></span> - please check out the <a href="https://trustworthyrobotics.github.io/phd_flyer.pdf">recruitment flyer</a> for more details. Interested GT UG and MS students are also encouraged to reach out. Please see the <a href="https://trustworthyrobotics.github.io/">lab website</a> for more details.<br>
+    <i><b>Oct. 22, 2024.</b></i> I am joining Georgia Tech as an assistant professor in Nov. 2024.
   </div>
   <button id="moreButton" onclick="revealMore()" style="margin-top: 10px;">More</button>
 </div>
