@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a20d442-2a54-4daa-94da-962f3654d3c1" name="Changes" comment="" />
+    <list default="true" id="2a20d442-2a54-4daa-94da-962f3654d3c1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +12,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3Bxy9FIaFuZJJ6FwCa1IptGXThP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,7 +29,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/gchou/Documents/website_glenchou/glenchou.github.io",
+    "last_opened_file_path": "/home/gchou/PycharmProjects/rea_llm_reimplementation",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -47,6 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1775444864324</updated>
       <workItem from="1775444865521" duration="31000" />
+      <workItem from="1777251952245" duration="509000" />
     </task>
     <servers />
   </component>
