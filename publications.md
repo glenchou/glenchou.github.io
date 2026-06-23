@@ -254,6 +254,27 @@ function filterPublications(pubtype, button) {
    journal = {Proceedings of Robotics: Science and Systems (RSS) XXII},<br>   Title = "VISION-SLS: Safe Perception-Based Control from Learned Visual Representations via System Level Synthesis",<br>   year = {2026}<br>}</pre></td>
 </tr>
 
+<tr data-pub-type="conference" data-pub-id="Brown26" id="Brown26">
+	<td markdown="span"><br><img src="../images/Brown26.jpg" onmouseover="this.src='../images/Brown26.gif'" onmouseout="this.src='../images/Brown26.jpg'" />   </td>
+	<td markdown="span"><br>[C25]</td>
+	<td markdown="span"><br>**Design and Trajectory Optimization of a Shape-Morphing Aeroshell for Skip-Entry Orbital Inclination Change** <br> 
+		<em>Abinay Brown, **Glen Chou**</em> <br> 
+		 Proceedings of the 27th AIAA International Space Planes and Hypersonic Systems and Technologies Conference, July 2026. <br>
+		[<a href="javascript:toggleInfo(&#39;Brown26&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Brown26&#39;); ">Abstract</a>]
+                \[<a href="https://glenchou.github.io/papers/Brown26.pdf">PDF</a>\] [<a href="javascript:toggleInfo(&#39;Brown26&#39;,&#39;bibtex&#39;)">Cite</a>]<br>
+    </td>
+</tr>
+
+<tr data-pub-type="conference" data-pub-id="Brown26" id="abs_Brown26" class="abstract noshow">
+    <td colspan="3"><div align="justify"> <b>Abstract</b>: This paper addresses the gap between the theoretical efficiency of skip-entry maneuvers for orbital inclination change and the practical difficulty of achieving the high lift-to-drag (L/D) ratios required with conventional rigid aeroshells. We propose a modular, shape-morphing aeroshell that attaches to an existing spacecraft and uses actuated arms to vary its geometry, enabling active control of aerodynamic coefficients during hypersonic skip. We model the shape-morphing aerodynamics, equations of motion, Δ𝑖 and Δ𝑉 relationships for skip-entry, and formulate an optimal control problem to determine arm deflections, angles of attack, and bank angles that minimize total Δ𝑉 while achieving a desired inclination change Δ𝑖. Our results show practical Δ𝑉 reductions of 24–38% for Δ𝑖 = 0◦ to 18◦, and approximately 40% for large changes of 28.5◦ and 47.1◦, corresponding to transfers from 𝑖 = 70◦ and 𝑖 = 51.6◦ to sun-synchronous orbit (𝑖 = 98.5◦), compared to pure propulsive plane change. </div></td>
+  </tr>
+
+<tr data-pub-type="conference" data-pub-id="Brown26" id="bib_Brown26" class="bibtex noshow">
+<td colspan="3"><b>BibTeX</b>:
+  <pre>@inproceedings{Brown-Hypersonics-26,<br>   Author = "Abinay Brown, Glen Chou",
+   journal = {Proceedings of the 27th AIAA International Space Planes and Hypersonic Systems and Technologies Conference},<br>   Title = "Design and Trajectory Optimization of a Shape-Morphing Aeroshell for Skip-Entry Orbital Inclination Change",<br>   year = {2026}<br>}</pre></td>
+</tr>
+
 <tr data-pub-type="conference" data-pub-id="Nath26b" id="Nath26b">
 	<td markdown="span"><br><img src="../images/l4dc26_koop.jpg" onmouseover="this.src='../images/l4dc26_koop.gif'" onmouseout="this.src='../images/l4dc26_koop.jpg'" />   </td>
 	<td markdown="span"><br>[C25]</td>
@@ -262,7 +283,7 @@ function filterPublications(pubtype, button) {
 		 Proceedings of the 8th Annual Learning for Dynamics & Control Conference (L4DC), June 2026. <br>
 		[<a href="javascript:toggleInfo(&#39;Nath26b&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Nath26b&#39;); ">Abstract</a>]
                 \[[arXiv](https://arxiv.org/abs/2601.01076)\] \[<a href="https://arxiv.org/pdf/2601.01076">PDF</a>\] [<a href="javascript:toggleInfo(&#39;Nath26b&#39;,&#39;bibtex&#39;)">Cite</a>]<br>
-        <b><span style="color:red">Selected for oral presentation, top 10.3% of accepted papers.</span></b>
+        <b><span style="color:red">Best paper finalist (top 1.8% of submissions).</span></b>
     </td>
 </tr>
 
