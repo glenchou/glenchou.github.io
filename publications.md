@@ -255,7 +255,7 @@ function filterPublications(pubtype, button) {
 </tr>
 
 <tr data-pub-type="conference" data-pub-id="Brown26" id="Brown26">
-	<td markdown="span"><br><img src="../images/Brown26.jpg" onmouseover="this.src='../images/Brown26.gif'" onmouseout="this.src='../images/Brown26.jpg'" />   </td>
+	<td markdown="span"><br><img src="../images/Brown26.png" onmouseover="this.src='../images/Brown26.png'" onmouseout="this.src='../images/Brown26.png'" />   </td>
 	<td markdown="span"><br>[C26]</td>
 	<td markdown="span"><br>**Design and Trajectory Optimization of a Shape-Morphing Aeroshell for Skip-Entry Orbital Inclination Change** <br> 
 		<em>Abinay Brown, **Glen Chou**</em> <br> 
