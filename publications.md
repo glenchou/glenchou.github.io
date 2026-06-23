@@ -151,7 +151,11 @@ function filterPublications(pubtype, button) {
 
 <tr data-pub-type="conference" data-pub-id="Skifstad26a" id="Skifstad26a">
 	<td markdown="span"><br><img src="../images/icml_26_alqr_02.png" onmouseover="this.src='../images/icml_26_alqr_01.png'" onmouseout="this.src='../images/icml_26_alqr_02.png'" />   </td>
+<<<<<<< HEAD
 	<td markdown="span"><br>[C31]</td>
+=======
+	<td markdown="span"><br>[C30]</td>
+>>>>>>> d4adf1b (merged conf and jour)
 	<td markdown="span"><br>**Local Linearity of LLMs Enables Activation Steering via Model-Based Linear Optimal Control** <br> 
 		<em>Julian Skifstad, Xinyue Annie Yang, **Glen Chou**</em> <br> 
 		 Proceedings of the 43rd International Conference on Machine Learning (ICML), July 2026. <br>
@@ -172,7 +176,11 @@ function filterPublications(pubtype, button) {
 
 <tr data-pub-type="conference" data-pub-id="Fang26a" id="Fang26a">
 	<td markdown="span"><br><img src="../images/rss_26_gpu.jpg" onmouseover="this.src='../images/rss_26_gpu.gif'" onmouseout="this.src='../images/rss_26_gpu.jpg'" />   </td>
+<<<<<<< HEAD
 	<td markdown="span"><br>[C30]</td>
+=======
+	<td markdown="span"><br>[C29]</td>
+>>>>>>> d4adf1b (merged conf and jour)
 	<td markdown="span"><br>**Safe Large-Scale Robust Nonlinear MPC in Milliseconds via Reachability-Constrained System Level Synthesis on the GPU** <br> 
 		<em>Jeffrey Fang, **Glen Chou**</em> <br> 
 		 Proceedings of Robotics: Science and Systems (RSS) XXII, July 2026. <br>
@@ -193,7 +201,11 @@ function filterPublications(pubtype, button) {
 
 <tr data-pub-type="conference" data-pub-id="Li26b" id="Li26b">
 	<td markdown="span"><br><img src="../images/rss_26_contact.jpg" onmouseover="this.src='../images/rss_26_contact.gif'" onmouseout="this.src='../images/rss_26_contact.jpg'" />   </td>
+<<<<<<< HEAD
 	<td markdown="span"><br>[C29]</td>
+=======
+	<td markdown="span"><br>[C28]</td>
+>>>>>>> d4adf1b (merged conf and jour)
 	<td markdown="span"><br>**Certified Gradient-Based Contact-Rich Manipulation via Smoothing-Error Reachable Tubes** <br> 
 		<em>Wei-Chen Li, **Glen Chou**</em> <br> 
 		 Proceedings of Robotics: Science and Systems (RSS) XXII, July 2026. <br>
@@ -214,7 +226,11 @@ function filterPublications(pubtype, button) {
 
 <tr data-pub-type="conference" data-pub-id="Shen26a" id="Shen26a">
 	<td markdown="span"><br><img src="../images/rss_26_taylor.jpg" onmouseover="this.src='../images/rss_26_taylor.gif'" onmouseout="this.src='../images/rss_26_taylor.jpg'" />   </td>
+<<<<<<< HEAD
 	<td markdown="span"><br>[C28]</td>
+=======
+	<td markdown="span"><br>[C27]</td>
+>>>>>>> d4adf1b (merged conf and jour)
 	<td markdown="span"><br>**Parallel Differentiable Reachability for Learning and Planning with Certified Neural Dynamics and Controllers** <br> 
 		<em>Keyi Shen, **Glen Chou**</em> <br> 
 		 Proceedings of Robotics: Science and Systems (RSS) XXII, July 2026. <br>
@@ -235,7 +251,11 @@ function filterPublications(pubtype, button) {
 
 <tr data-pub-type="conference" data-pub-id="Leeman26a" id="Leeman26a">
 	<td markdown="span"><br><img src="../images/rss_26_vision.jpg" onmouseover="this.src='../images/rss_26_vision.gif'" onmouseout="this.src='../images/rss_26_vision.jpg'" />   </td>
+<<<<<<< HEAD
 	<td markdown="span"><br>[C27]</td>
+=======
+	<td markdown="span"><br>[C26]</td>
+>>>>>>> d4adf1b (merged conf and jour)
 	<td markdown="span"><br>**VISION-SLS: Safe Perception-Based Control from Learned Visual Representations via System Level Synthesis** <br> 
 		<em>Antoine Leeman\*, Shuyu Zhan\*, Melanie Zeilinger, **Glen Chou**</em> <br> 
 		 Proceedings of Robotics: Science and Systems (RSS) XXII, July 2026. <br>
@@ -254,6 +274,7 @@ function filterPublications(pubtype, button) {
    journal = {Proceedings of Robotics: Science and Systems (RSS) XXII},<br>   Title = "VISION-SLS: Safe Perception-Based Control from Learned Visual Representations via System Level Synthesis",<br>   year = {2026}<br>}</pre></td>
 </tr>
 
+<<<<<<< HEAD
 <tr data-pub-type="conference" data-pub-id="Brown26" id="Brown26">
 	<td markdown="span"><br><img src="../images/Brown26.png" onmouseover="this.src='../images/Brown26.png'" onmouseout="this.src='../images/Brown26.png'" />   </td>
 	<td markdown="span"><br>[C26]</td>
@@ -275,6 +296,8 @@ function filterPublications(pubtype, button) {
    journal = {Proceedings of the 27th AIAA International Space Planes and Hypersonic Systems and Technologies Conference},<br>   Title = "Design and Trajectory Optimization of a Shape-Morphing Aeroshell for Skip-Entry Orbital Inclination Change",<br>   year = {2026}<br>}</pre></td>
 </tr>
 
+=======
+>>>>>>> d4adf1b (merged conf and jour)
 <tr data-pub-type="conference" data-pub-id="Nath26b" id="Nath26b">
 	<td markdown="span"><br><img src="../images/l4dc26_koop.jpg" onmouseover="this.src='../images/l4dc26_koop.gif'" onmouseout="this.src='../images/l4dc26_koop.jpg'" />   </td>
 	<td markdown="span"><br>[C25]</td>
