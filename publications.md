@@ -151,12 +151,12 @@ function filterPublications(pubtype, button) {
 
 <tr data-pub-type="conference" data-pub-id="Skifstad26a" id="Skifstad26a">
 	<td markdown="span"><br><img src="../images/icml_26_alqr_02.png" onmouseover="this.src='../images/icml_26_alqr_01.png'" onmouseout="this.src='../images/icml_26_alqr_02.png'" />   </td>
-	<td markdown="span"><br>[C30]</td>
+	<td markdown="span"><br>[C31]</td>
 	<td markdown="span"><br>**Local Linearity of LLMs Enables Activation Steering via Model-Based Linear Optimal Control** <br> 
 		<em>Julian Skifstad, Xinyue Annie Yang, **Glen Chou**</em> <br> 
 		 Proceedings of the 43rd International Conference on Machine Learning (ICML), July 2026. <br>
 		[<a href="javascript:toggleInfo(&#39;Skifstad26a&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Skifstad26a&#39;); ">Abstract</a>]
-                \[[arXiv](https://arxiv.org/abs/2604.19018)\] \[<a href="https://arxiv.org/pdf/2604.19018">PDF</a>\] \[<a href="https://github.com/trustworthyrobotics/lqr-activation-steering">Code</a>\] [<a href="javascript:toggleInfo(&#39;Skifstad26a&#39;,&#39;bibtex&#39;)">Cite</a>]<br>
+                \[[arXiv](https://arxiv.org/abs/2604.19018)\] \[<a href="https://arxiv.org/pdf/2604.19018">PDF</a>\] \[<a href="https://github.com/trustworthyrobotics/lqr-activation-steering">Code</a>\] \[<a href="https://www.youtube.com/watch?v=M7cinNiVvZs">Video</a>\] [<a href="javascript:toggleInfo(&#39;Skifstad26a&#39;,&#39;bibtex&#39;)">Cite</a>]<br>
     </td>
 </tr>
 
@@ -172,7 +172,7 @@ function filterPublications(pubtype, button) {
 
 <tr data-pub-type="conference" data-pub-id="Fang26a" id="Fang26a">
 	<td markdown="span"><br><img src="../images/rss_26_gpu.jpg" onmouseover="this.src='../images/rss_26_gpu.gif'" onmouseout="this.src='../images/rss_26_gpu.jpg'" />   </td>
-	<td markdown="span"><br>[C29]</td>
+	<td markdown="span"><br>[C30]</td>
 	<td markdown="span"><br>**Safe Large-Scale Robust Nonlinear MPC in Milliseconds via Reachability-Constrained System Level Synthesis on the GPU** <br> 
 		<em>Jeffrey Fang, **Glen Chou**</em> <br> 
 		 Proceedings of Robotics: Science and Systems (RSS) XXII, July 2026. <br>
@@ -193,7 +193,7 @@ function filterPublications(pubtype, button) {
 
 <tr data-pub-type="conference" data-pub-id="Li26b" id="Li26b">
 	<td markdown="span"><br><img src="../images/rss_26_contact.jpg" onmouseover="this.src='../images/rss_26_contact.gif'" onmouseout="this.src='../images/rss_26_contact.jpg'" />   </td>
-	<td markdown="span"><br>[C28]</td>
+	<td markdown="span"><br>[C29]</td>
 	<td markdown="span"><br>**Certified Gradient-Based Contact-Rich Manipulation via Smoothing-Error Reachable Tubes** <br> 
 		<em>Wei-Chen Li, **Glen Chou**</em> <br> 
 		 Proceedings of Robotics: Science and Systems (RSS) XXII, July 2026. <br>
@@ -214,7 +214,7 @@ function filterPublications(pubtype, button) {
 
 <tr data-pub-type="conference" data-pub-id="Shen26a" id="Shen26a">
 	<td markdown="span"><br><img src="../images/rss_26_taylor.jpg" onmouseover="this.src='../images/rss_26_taylor.gif'" onmouseout="this.src='../images/rss_26_taylor.jpg'" />   </td>
-	<td markdown="span"><br>[C27]</td>
+	<td markdown="span"><br>[C28]</td>
 	<td markdown="span"><br>**Parallel Differentiable Reachability for Learning and Planning with Certified Neural Dynamics and Controllers** <br> 
 		<em>Keyi Shen, **Glen Chou**</em> <br> 
 		 Proceedings of Robotics: Science and Systems (RSS) XXII, July 2026. <br>
@@ -235,7 +235,7 @@ function filterPublications(pubtype, button) {
 
 <tr data-pub-type="conference" data-pub-id="Leeman26a" id="Leeman26a">
 	<td markdown="span"><br><img src="../images/rss_26_vision.jpg" onmouseover="this.src='../images/rss_26_vision.gif'" onmouseout="this.src='../images/rss_26_vision.jpg'" />   </td>
-	<td markdown="span"><br>[C26]</td>
+	<td markdown="span"><br>[C27]</td>
 	<td markdown="span"><br>**VISION-SLS: Safe Perception-Based Control from Learned Visual Representations via System Level Synthesis** <br> 
 		<em>Antoine Leeman\*, Shuyu Zhan\*, Melanie Zeilinger, **Glen Chou**</em> <br> 
 		 Proceedings of Robotics: Science and Systems (RSS) XXII, July 2026. <br>
@@ -254,6 +254,27 @@ function filterPublications(pubtype, button) {
    journal = {Proceedings of Robotics: Science and Systems (RSS) XXII},<br>   Title = "VISION-SLS: Safe Perception-Based Control from Learned Visual Representations via System Level Synthesis",<br>   year = {2026}<br>}</pre></td>
 </tr>
 
+<tr data-pub-type="conference" data-pub-id="Brown26" id="Brown26">
+	<td markdown="span"><br><img src="../images/Brown26.png" onmouseover="this.src='../images/Brown26.png'" onmouseout="this.src='../images/Brown26.png'" />   </td>
+	<td markdown="span"><br>[C26]</td>
+	<td markdown="span"><br>**Design and Trajectory Optimization of a Shape-Morphing Aeroshell for Skip-Entry Orbital Inclination Change** <br> 
+		<em>Abinay Brown, **Glen Chou**</em> <br> 
+		 Proceedings of the 27th AIAA International Space Planes and Hypersonic Systems and Technologies Conference, July 2026. <br>
+		[<a href="javascript:toggleInfo(&#39;Brown26&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Brown26&#39;); ">Abstract</a>]
+                \[<a href="https://glenchou.github.io/papers/Brown26.pdf">PDF</a>\] [<a href="javascript:toggleInfo(&#39;Brown26&#39;,&#39;bibtex&#39;)">Cite</a>]<br>
+    </td>
+</tr>
+
+<tr data-pub-type="conference" data-pub-id="Brown26" id="abs_Brown26" class="abstract noshow">
+    <td colspan="3"><div align="justify"> <b>Abstract</b>: This paper addresses the gap between the theoretical efficiency of skip-entry maneuvers for orbital inclination change and the practical difficulty of achieving the high lift-to-drag (L/D) ratios required with conventional rigid aeroshells. We propose a modular, shape-morphing aeroshell that attaches to an existing spacecraft and uses actuated arms to vary its geometry, enabling active control of aerodynamic coefficients during hypersonic skip. We model the shape-morphing aerodynamics, equations of motion, Δ𝑖 and Δ𝑉 relationships for skip-entry, and formulate an optimal control problem to determine arm deflections, angles of attack, and bank angles that minimize total Δ𝑉 while achieving a desired inclination change Δ𝑖. Our results show practical Δ𝑉 reductions of 24–38% for Δ𝑖 = 0◦ to 18◦, and approximately 40% for large changes of 28.5◦ and 47.1◦, corresponding to transfers from 𝑖 = 70◦ and 𝑖 = 51.6◦ to sun-synchronous orbit (𝑖 = 98.5◦), compared to pure propulsive plane change. </div></td>
+  </tr>
+
+<tr data-pub-type="conference" data-pub-id="Brown26" id="bib_Brown26" class="bibtex noshow">
+<td colspan="3"><b>BibTeX</b>:
+  <pre>@inproceedings{Brown-Hypersonics-26,<br>   Author = "Abinay Brown, Glen Chou",
+   journal = {Proceedings of the 27th AIAA International Space Planes and Hypersonic Systems and Technologies Conference},<br>   Title = "Design and Trajectory Optimization of a Shape-Morphing Aeroshell for Skip-Entry Orbital Inclination Change",<br>   year = {2026}<br>}</pre></td>
+</tr>
+
 <tr data-pub-type="conference" data-pub-id="Nath26b" id="Nath26b">
 	<td markdown="span"><br><img src="../images/l4dc26_koop.jpg" onmouseover="this.src='../images/l4dc26_koop.gif'" onmouseout="this.src='../images/l4dc26_koop.jpg'" />   </td>
 	<td markdown="span"><br>[C25]</td>
@@ -262,7 +283,7 @@ function filterPublications(pubtype, button) {
 		 Proceedings of the 8th Annual Learning for Dynamics & Control Conference (L4DC), June 2026. <br>
 		[<a href="javascript:toggleInfo(&#39;Nath26b&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Nath26b&#39;); ">Abstract</a>]
                 \[[arXiv](https://arxiv.org/abs/2601.01076)\] \[<a href="https://arxiv.org/pdf/2601.01076">PDF</a>\] [<a href="javascript:toggleInfo(&#39;Nath26b&#39;,&#39;bibtex&#39;)">Cite</a>]<br>
-        <b><span style="color:red">Selected for oral presentation, top 10.3% of accepted papers.</span></b>
+        <b><span style="color:red">Best paper finalist (top 1.8% of submissions).</span></b>
     </td>
 </tr>
 
@@ -325,7 +346,7 @@ function filterPublications(pubtype, button) {
 		<em>Chengyue Huang\*, Mellon M. Zhang\*, Robert Azarcon, **Glen Chou**, Zsolt Kira</em> <br> 
 		 Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), June 2026. <br>
 		[<a href="javascript:toggleInfo(&#39;Huang26a&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Huang26a&#39;); ">Abstract</a>]
-                \[[arXiv](https://arxiv.org/abs/2511.19878)\] \[<a href="https://arxiv.org/pdf/2511.19878">PDF</a>\] \[<a href="https://mapsvla.github.io/">Project Website</a>\] \[<a href="https://github.com/chengyuehuang511/MAPS-VLA">Code</a>\] [<a href="javascript:toggleInfo(&#39;Huang26a&#39;,&#39;bibtex&#39;)">Cite</a>]
+                \[[arXiv](https://arxiv.org/abs/2511.19878)\] \[<a href="https://arxiv.org/pdf/2511.19878">PDF</a>\] \[<a href="https://mapsvla.github.io/">Project Website</a>\] \[<a href="https://github.com/chengyuehuang511/MAPS-VLA">Code</a>\] \[<a href="https://www.youtube.com/watch?v=OIC3IQsa35k">Video</a>\] [<a href="javascript:toggleInfo(&#39;Huang26a&#39;,&#39;bibtex&#39;)">Cite</a>]
     </td>
 </tr>
 
