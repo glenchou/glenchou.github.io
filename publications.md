@@ -74,6 +74,167 @@ function filterPublications(pubtype, button) {
 
 </script>
 
+## Preprints
+
+<hr>
+
+<table class="table">
+<colgroup>
+	<col width="18%" />
+	<col width="2%" />
+	<col width="80%" />
+</colgroup>
+<tbody>
+
+
+<tr id="Fang26b">
+	<td markdown="span"><br><img src="../images/Fang26b_01.png" onmouseover="this.src='../images/Fang26b_02.png'" onmouseout="this.src='../images/Fang26b_01.png'" />   </td>
+	<td markdown="span"></td>
+	<td markdown="span"><br>**GPU-Parallel Linearization Error Bounds for Real-Time Robust Optimal Control of Nonlinear and Neural Network Dynamics** <br> 
+		<em>Jeffrey Fang\*, Keyi Shen\*, Anutam Srinivasan, **Glen Chou**</em> <br> 
+		July 2026. <br>
+                [<a href="javascript:toggleInfo(&#39;Fang26b&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Fang26b&#39;); ">Abstract</a>]
+                 \[[arXiv](https://arxiv.org/abs/2607.01203)\] \[[PDF](https://arxiv.org/pdf/2607.01203)\] \[<a href="https://trustworthyrobotics.github.io/gpusls-leo/">Project Website</a>\] \[<a href="https://github.com/trustworthyrobotics/gpusls-leo">Code</a>\] [<a href="javascript:toggleInfo(&#39;Fang26b&#39;,&#39;bibtex&#39;)">Cite</a>]</td>
+</tr>
+<tr id="abs_Fang26b" class="abstract noshow">
+    <td colspan="3"><div align="justify"> <b>Abstract</b>: This paper studies real-time robust optimal control for uncertain nonlinear systems, where linear time-varying (LTV) approximations make planning tractable but require sound linearization error bounds (LEBs) to guarantee robust constraint satisfaction. We develop tight, differentiable, GPU-parallel LEBs for LTV approximations of nonlinear and neural network (NN) dynamics. For analytic dynamics, we introduce path-based Hessian bounds that are tighter than standard interval methods. For NN dynamics, we derive certified LEBs using NN verifier-generated affine relaxations and local Jacobian corrections. We adapt a GPU-parallel system-level synthesis LTV-based robust control solver to be compatible with these LEBs by extending it to handle right-invertible disturbance matrices and non-zero-centered disturbance sets for tight zonotopic uncertainty propagation. Our method, GPUSLS-LEO, enables online optimization of robust feedback policies that account for linearization error, producing tight, formally verified reachable tubes. On complex nonlinear and NN dynamics up to 168 state dimensions, our method can compute robust control policies on the GPU at rates up to 67 Hz, reducing solve times and conservativeness relative to baselines while preserving formal guarantees and real-time performance. </div></td>
+  </tr>
+<tr id="bib_Fang26b" class="bibtex noshow">
+<td colspan="3"><b>BibTeX</b>:
+  <pre>@inproceedings{Fang26b,<br>   Author = "Jeffrey Fang, Keyi Shen, Anutam Srinivasan, Glen Chou",
+   Title = "GPU-Parallel Linearization Error Bounds for Real-Time Robust Optimal Control of Nonlinear and Neural Network Dynamics",<br>   year = {2026}<br>}</pre></td>
+</tr>
+
+<tr id="Li26c">
+	<td markdown="span"><br><img src="../images/Li26c_01.jpg" onmouseover="this.src='../images/Li26c_02.gif'" onmouseout="this.src='../images/Li26c_01.jpg'" />   </td>
+	<td markdown="span"></td>
+	<td markdown="span"><br>**Robustness without Wrinkles: Parallel Simulation and Robust MPC for Certified Deformable Manipulation** <br> 
+		<em>Wei-Chen Li\*, Jeffrey Fang\*, Sasanka Polisetti, Yuexi Song, **Glen Chou**</em> <br> 
+		June 2026. <br>
+                [<a href="javascript:toggleInfo(&#39;Li26c&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Li26c&#39;); ">Abstract</a>]
+                 \[[arXiv](https://arxiv.org/abs/2606.14188)\] \[[PDF](https://arxiv.org/pdf/2606.14188)\] \[<a href="https://trustworthyrobotics.github.io/CORD-SLS/">Project Website</a>\] \[<a href="https://github.com/trustworthyrobotics/CORD-SLS">Code</a>\] \[<a href="https://www.youtube.com/watch?v=glPFcKFUvWo">Video</a>\] [<a href="javascript:toggleInfo(&#39;Li26c&#39;,&#39;bibtex&#39;)">Cite</a>]</td>
+</tr>
+<tr id="abs_Li26c" class="abstract noshow">
+    <td colspan="3"><div align="justify"> <b>Abstract</b>: We present CORD-SLS, a real-time control method for safe deformable object manipulation, with a focus on ropes and cloth. At its core is a GPU-parallel differentiable simulator with contact smoothing which enables efficient gradient-based planning through intermittent contact. To robustly satisfy constraints under model and sensing uncertainty, we develop a real-time, GPU-parallel output-feedback robust model predictive control (MPC) algorithm that plans with this simulator. We further show that the simulator accelerates model-based RL for training neural manipulation policies. To improve real-world robustness, we use conformal prediction to calibrate visual-feedback and perception-error bounds for MPC, producing reachable tubes that enable high-probability safe control. We evaluate CORD-SLS on high-dimensional, contact-rich rope and cloth manipulation tasks in simulation and hardware, including obstacle avoidance, routing, folding, and smoothing. Across settings, CORD-SLS achieves millisecond-speed planning, exceeding baselines in safety, speed, and task success. </div></td>
+  </tr>
+<tr id="bib_Li26c" class="bibtex noshow">
+<td colspan="3"><b>BibTeX</b>:
+  <pre>@inproceedings{Li26c,<br>   Author = "Wei-Chen Li, Jeffrey Fang, Sasanka Polisetti, Yuexi Song, Glen Chou",
+   Title = "Robustness without Wrinkles: Parallel Simulation and Robust MPC for Certified Deformable Manipulation",<br>   year = {2026}<br>}</pre></td>
+</tr>
+
+<tr id="Nath26c">
+	<td markdown="span"><br><img src="../images/Nath26c_01.jpg" onmouseover="this.src='../images/Nath26c_02.gif'" onmouseout="this.src='../images/Nath26c_01.jpg'" />   </td>
+	<td markdown="span"></td>
+	<td markdown="span"><br>**Pixels to Proofs: Probabilistically-Safe Latent World Model Control via Parallel Conformal Robust MPC** <br> 
+		<em>Devesh Nath\*, Anutam Srinivasan\*, Haoran Yin\*, Ruitong Jiang, Jeffrey Fang, **Glen Chou**</em> <br> 
+		June 2026. <br>
+                [<a href="javascript:toggleInfo(&#39;Nath26c&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Nath26c&#39;); ">Abstract</a>]
+                 \[[arXiv](https://arxiv.org/abs/2606.15594)\] \[[PDF](https://arxiv.org/pdf/2606.15594)\] \[<a href="https://trustworthyrobotics.github.io/SLS-squared/">Project Website</a>\] \[<a href="https://github.com/trustworthyrobotics/SLS-squared">Code</a>\] \[<a href="https://www.youtube.com/watch?v=3sYYNSQqwSQ">Video</a>\] [<a href="javascript:toggleInfo(&#39;Nath26c&#39;,&#39;bibtex&#39;)">Cite</a>]</td>
+</tr>
+<tr id="abs_Nath26c" class="abstract noshow">
+    <td colspan="3"><div align="justify"> <b>Abstract</b>: We present SLS^2, a framework for safe feedback motion planning from pixels using robust model predictive control (MPC) in learned latent world models. Our approach trains an action-conditioned joint-embedding world model with compact Markovian latent states, enabling efficient gradient-based trajectory optimization through learned latent dynamics. To enforce safety for the true system despite imperfect latent predictions, we inform a GPU-accelerated system level synthesis (SLS) robust MPC scheme with conformal prediction to obtain calibrated latent error bounds and robust latent-space constraint sets. We further learn and conformalize a latent constraint checker, allowing the SLS planner to impose probabilistic safety constraints during closed-loop execution. We evaluate our method on vision-based control tasks, where it improves both goal-reaching performance and safety over latent world-model and safe-planning baselines. </div></td>
+  </tr>
+<tr id="bib_Nath26c" class="bibtex noshow">
+<td colspan="3"><b>BibTeX</b>:
+  <pre>@inproceedings{Nath26c,<br>   Author = "Devesh Nath, Anutam Srinivasan, Haoran Yin, Ruitong Jiang, Jeffrey Fang, Glen Chou",
+   Title = "Pixels to Proofs: Probabilistically-Safe Latent World Model Control via Parallel Conformal Robust MPC",<br>   year = {2026}<br>}</pre></td>
+</tr>
+
+<tr id="Zhang26c">
+	<td markdown="span"><br><img src="../images/Zhang26c_01.png" onmouseover="this.src='../images/Zhang26c_02.png'" onmouseout="this.src='../images/Zhang26c_01.png'" />   </td>
+	<td markdown="span"></td>
+	<td markdown="span"><br>**ATLAS: A Large-Scale Evaluation Benchmark for Adversarial LiDAR Perception** <br> 
+		<em>Mellon M. Zhang\*, Siddhant Panse\*, Zimo Fan, Akshal Dhal, Rishit Sarkar, **Glen Chou**</em> <br> 
+		June 2026. <br>
+                [<a href="javascript:toggleInfo(&#39;Zhang26c&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Zhang26c&#39;); ">Abstract</a>]
+                 \[[arXiv](https://arxiv.org/abs/2606.02924)\] \[[PDF](https://arxiv.org/pdf/2606.02924)\] [<a href="javascript:toggleInfo(&#39;Zhang26c&#39;,&#39;bibtex&#39;)">Cite</a>]</td>
+</tr>
+<tr id="abs_Zhang26c" class="abstract noshow">
+    <td colspan="3"><div align="justify"> <b>Abstract</b>: Autonomous driving perception is typically evaluated on clean benchmark data, yet real-world deployment requires robustness to rare, structured, and potentially adversarial sensor anomalies. This gap is especially critical for LiDAR, where external actors can physically manipulate the sensing process to induce black-box perception failures without accessing the model. Existing LiDAR benchmarks provide little visibility into this failure mode. Prior adversarial LiDAR studies have largely centered on attack hardware, geometric and algorithmic defenses, and early-generation detectors, leaving the robustness of modern perception systems unexplored. To address this evaluation gap, we introduce ATLAS (Adversarial Temporal LiDAR Attack Suite), the first large-scale, physically grounded evaluation benchmark for LiDAR perception models under black-box sensor attacks, simulating the two primary attack modes -- point injection and point removal -- across real driving sequences. Evaluating a broad cross-section of current state-of-the-art LiDAR perception models, ATLAS reveals a surprising robustness asymmetry: models with stronger performance on standard benchmarks tend to better withstand removal attacks, yet are actually more vulnerable to injection attacks than weaker models. We trace this vulnerability to standard object database sampling augmentations, revealing how current training practices can induce architecture-agnostic robustness failures, and study initial directions for mitigating both attack modes. We release the ATLAS generation code to support extensible, reproducible evaluations as attack capabilities evolve, helping make black-box sensor robustness an explicit consideration in future LiDAR perception development. </div></td>
+  </tr>
+<tr id="bib_Zhang26c" class="bibtex noshow">
+<td colspan="3"><b>BibTeX</b>:
+  <pre>@inproceedings{Zhang26c,<br>   Author = "Mellon M. Zhang, Siddhant Panse, Zimo Fan, Akshal Dhal, Rishit Sarkar, Glen Chou",
+   Title = "ATLAS: A Large-Scale Evaluation Benchmark for Adversarial LiDAR Perception",<br>   year = {2026}<br>}</pre></td>
+</tr>
+
+<tr id="Hong26b">
+	<td markdown="span"><br><img src="../images/Hong26b_01.jpg" onmouseover="this.src='../images/Hong26b_02.gif'" onmouseout="this.src='../images/Hong26b_01.jpg'" />   </td>
+	<td markdown="span"></td>
+	<td markdown="span"><br>**Activation Steering of Video Generation Models via Reduced-Order Linear Optimal Control** <br> 
+		<em>Jihoon Hong, Alice Chan\*, Qiyue Dai\*, Julian Skifstad, **Glen Chou**</em> <br> 
+		June 2026. <br>
+                [<a href="javascript:toggleInfo(&#39;Hong26b&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Hong26b&#39;); ">Abstract</a>]
+                 \[[arXiv](https://arxiv.org/abs/2606.04775)\] \[[PDF](https://arxiv.org/pdf/2606.04775)\] [<a href="javascript:toggleInfo(&#39;Hong26b&#39;,&#39;bibtex&#39;)">Cite</a>]</td>
+</tr>
+<tr id="abs_Hong26b" class="abstract noshow">
+    <td colspan="3"><div align="justify"> <b>Abstract</b>: Text-to-video (T2V) models trained on large-scale web data can generate undesired content, motivating interventions that reduce harmful outputs without sacrificing visual quality. Activation steering offers an attractive mechanistic alternative to finetuning and prompt filtering, but existing T2V steering methods remain limited, typically applying coarse, non-anticipative interventions that can lead to oversteering and content degradation. To close this gap, we propose Latent Activation Linear-Quadratic Regulator (LA-LQR), a reduced-order optimal control framework for minimally invasive T2V steering. LA-LQR formulates T2V inference as a dynamical system and computes closed-loop feedback interventions that steer activations toward desired feature setpoints while penalizing unnecessary perturbations. To make optimal control feasible for high-dimensional video activations, we project activations onto a low-dimensional, task-relevant subspace derived from contrastive prompt pairs, estimate local linear dynamics in this latent space, and solve a latent LQR problem to obtain timestep- and layer-specific steering signals. We provide theoretical bounds relating latent setpoint tracking to raw activation-space feature control, and empirically validate the fidelity of the reduced latent dynamics. On concept steering and video safety benchmarks, LA-LQR reduces unsafe generations relative to baselines, while preserving prompt fidelity and visual quality. </div></td>
+  </tr>
+<tr id="bib_Hong26b" class="bibtex noshow">
+<td colspan="3"><b>BibTeX</b>:
+  <pre>@inproceedings{Hong26b,<br>   Author = "Jihoon Hong, Alice Chan, Qiyue Dai, Julian Skifstad, Glen Chou",
+   Title = "Activation Steering of Video Generation Models via Reduced-Order Linear Optimal Control",<br>   year = {2026}<br>}</pre></td>
+</tr>
+
+<tr id="Ni26">
+	<td markdown="span"><br><img src="../images/Ni26_01.png" onmouseover="this.src='../images/Ni26_02.png'" onmouseout="this.src='../images/Ni26_01.png'" />   </td>
+	<td markdown="span"></td>
+	<td markdown="span"><br>**Safe, Real-Time Active Model Discrimination and Fault Diagnosis for Nonlinear Systems via Differentiable Reachability** <br> 
+		<em>Xinpei Ni, Melkior Ornik, **Glen Chou**, Samuel Coogan</em> <br> 
+		June 2026. <br>
+                [<a href="javascript:toggleInfo(&#39;Ni26&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Ni26&#39;); ">Abstract</a>]
+                 \[[arXiv](https://arxiv.org/abs/2606.19590)\] \[[PDF](https://arxiv.org/pdf/2606.19590)\] [<a href="javascript:toggleInfo(&#39;Ni26&#39;,&#39;bibtex&#39;)">Cite</a>]</td>
+</tr>
+<tr id="abs_Ni26" class="abstract noshow">
+    <td colspan="3"><div align="justify"> <b>Abstract</b>: We present a safe, real-time algorithm for active fault diagnosis and model discrimination for uncertain continuous-time nonlinear systems with process and measurement disturbances. Given a finite set of candidate models representing nominal and faulty modes, including actuator and sensor faults, we formulate an output-feedback, time-varying policy optimization problem that (i) robustly enforces state-input safety constraints over a finite horizon and (ii) drives the system to produce sampled measurements consistent with at most one model, enabling deterministic diagnosis. To solve this problem in real time, we develop a tractable approximation using interval over-approximations of reachable state and output sets, and encode diagnosability via a differentiable objective that penalizes overlap between the reachable output sets of possible models. The resulting optimization is solved efficiently online with gradient-based methods using JAX and differentiable reachability primitives. We evaluate our method on sensor and actuator fault diagnosis (up to 11 fault modes) in several high-dimensional nonlinear robotic systems, including a simulated quadrotor and fighter-jet model, a hardware differential-drive robot, and quadrupedal navigation. Across these case studies, our approach achieves reliable model discrimination in under 50 ms, outperforming baselines in discrimination success rate and speed while providing formal safety guarantees. </div></td>
+  </tr>
+<tr id="bib_Ni26" class="bibtex noshow">
+<td colspan="3"><b>BibTeX</b>:
+  <pre>@inproceedings{Ni26,<br>   Author = "Xinpei Ni, Melkior Ornik, Glen Chou, Samuel Coogan",
+   Title = "Safe, Real-Time Active Model Discrimination and Fault Diagnosis for Nonlinear Systems via Differentiable Reachability",<br>   year = {2026}<br>}</pre></td>
+</tr>
+
+<tr id="Ma26">
+	<td markdown="span"><br><img src="../images/Ma26_01.png" onmouseover="this.src='../images/Ma26_02.png'" onmouseout="this.src='../images/Ma26_01.png'" />   </td>
+	<td markdown="span"></td>
+	<td markdown="span"><br>**Feedback Motion Planning for Stochastic Nonlinear Systems with Signal Temporal Logic Specifications** <br> 
+		<em>Liqian Ma\*, Zishun Liu\*, **Glen Chou**, Yongxin Chen</em> <br> 
+		April 2026. <br>
+                [<a href="javascript:toggleInfo(&#39;Ma26&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Ma26&#39;); ">Abstract</a>]
+                 \[[arXiv](https://arxiv.org/abs/2605.02361)\] \[[PDF](https://arxiv.org/pdf/2605.02361)\] [<a href="javascript:toggleInfo(&#39;Ma26&#39;,&#39;bibtex&#39;)">Cite</a>]</td>
+</tr>
+<tr id="abs_Ma26" class="abstract noshow">
+    <td colspan="3"><div align="justify"> <b>Abstract</b>: We study feedback motion planning for continuous-time stochastic nonlinear systems under signal temporal logic (STL) specifications. We propose a framework that synthesizes control policies for chance-constrained STL trajectory optimization problems, with the goal of ensuring that the closed-loop stochastic system satisfies a given STL formula with high probability (e.g., 99.99\%). Our approach is based on a predicate erosion strategy that transforms the intractable stochastic problem into a deterministic STL trajectory optimization problem with tightened STL formula constraints. The amount of erosion is determined by a probabilistic reachable tube (PRT) that bounds the deviation between the stochastic trajectory and an associated nominal trajectory. To compute such bounds, we leverage contraction theory and feedback design, and develop several tracking controllers. This yields a complete feedback motion planning pipeline which can be implemented by numerical optimizations. We demonstrate the efficacy and versatility of the proposed framework through simulations on several robotic systems and through experiments on a real-world quadrupedal robot, and show that it is less conservative and achieves higher specification satisfaction probability than representative baselines. </div></td>
+  </tr>
+<tr id="bib_Ma26" class="bibtex noshow">
+<td colspan="3"><b>BibTeX</b>:
+  <pre>@inproceedings{Gould26,<br>   Author = "Liqian Ma, Zishun Liu, Glen Chou, Yongxin Chen",
+   Title = "Feedback Motion Planning for Stochastic Nonlinear Systems with Signal Temporal Logic Specifications",<br>   year = {2026}<br>}</pre></td>
+</tr>
+
+<tr id="Gould26">
+	<td markdown="span"><br><img src="../images/Gould26.png" onmouseover="this.src='../images/Gould26.png'" onmouseout="this.src='../images/Gould26.png'" />   </td>
+	<td markdown="span"></td>
+	<td markdown="span"><br>**Over-Approximating Minimizer Sets of Constrained Convex Programs with Parametric Uncertainty via Reachability Analysis** <br> 
+		<em>Brendan Gould\*, Chih-Yuan Chiu\*, Antoine P. Leeman, Kyriakos G. Vamvoudakis, Samuel Coogan, **Glen Chou**</em> <br> 
+		March 2026. <br>
+                [<a href="javascript:toggleInfo(&#39;Gould26&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Gould26&#39;); ">Abstract</a>]
+                 \[[arXiv](https://arxiv.org/abs/2604.27355)\] \[[PDF](https://arxiv.org/pdf/2604.27355)\] [<a href="javascript:toggleInfo(&#39;Gould26&#39;,&#39;bibtex&#39;)">Cite</a>]</td>
+</tr>
+<tr id="abs_Gould26" class="abstract noshow">
+    <td colspan="3"><div align="justify"> <b>Abstract</b>: We study the set of solutions to a parameterized, strongly convex optimization problem whose cost depends on uncertain, bounded parameters. We compute a certified outer approximation of the corresponding set of optimizers, using convergence properties of the projected gradient descent (PGD) algorithm for convex programs. Concretely, by treating the cost parameter as constant but unknown, we interpret the PGD iterates as an uncertain dynamical system and analyze its forward reachable sets. Since PGD converges exponentially to the unique optimizer for each fixed parameter, these reachable sets provide outer approximations of the optimizer set, with an explicit error bound that decays exponentially with the iteration count. We apply system-level synthesis (SLS) on the PGD dynamics to optimize the step-size sequence and obtain reachable-set over-approximations. Our method outperforms existing baselines in over-approximating, with low conservativeness, the minimizer sets of convex programs with uncertain costs and high-dimensional decision variables. </div></td>
+  </tr>
+<tr id="bib_Gould26" class="bibtex noshow">
+<td colspan="3"><b>BibTeX</b>:
+  <pre>@inproceedings{Gould26,<br>   Author = "Brendan Gould, Chih-Yuan Chiu, Antoine P. Leeman, Kyriakos G. Vamvoudakis, Samuel Coogan, Glen Chou",
+   Title = "Over-Approximating Minimizer Sets of Constrained Convex Programs with Parametric Uncertainty via Reachability Analysis",<br>   year = {2026}<br>}</pre></td>
+</tr>
+
+
+</tbody>
+</table>
+
 <!-- <hr> -->
 <br>
 ## Journal and Conference Papers
@@ -136,7 +297,7 @@ function filterPublications(pubtype, button) {
 		<em>Jihoon Hong, Chih-Yuan Chiu, Sara Fridovich-Keil, **Glen Chou**</em> <br> 
 		IEEE Robotics and Automation Letters (RA-L), with presentation at IROS 2026, vol. 11, no. 7, pp. 8512-8519, July 2026. <br>
 		[<a href="javascript:toggleInfo(&#39;Hong26a&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Hong26a&#39;); ">Abstract</a>]
-                 \[[arXiv](https://arxiv.org/abs/2606.16232)\] \[[PDF](https://arxiv.org/pdf/2606.16232)\] \[<a href="https://doi.org/10.1109/LRA.2026.3692083">DOI</a>\] \[<a href="https://athlon76.github.io/PolyMerge-website/">Project Website</a>\] \[<a href="https://www.youtube.com/watch?v=eEdih0tga0M">Supplementary Video</a>\] [<a href="javascript:toggleInfo(&#39;Hong26a&#39;,&#39;bibtex&#39;)">Cite</a>]</td>
+                 \[[arXiv](https://arxiv.org/abs/2606.16232)\] \[[PDF](https://arxiv.org/pdf/2606.16232)\] \[<a href="https://doi.org/10.1109/LRA.2026.3692083">DOI</a>\] \[<a href="https://athlon76.github.io/PolyMerge-website/">Project Website</a>\] \[<a href="https://github.com/trustworthyrobotics/PolyMerge">Code</a>\] \[<a href="https://www.youtube.com/watch?v=eEdih0tga0M">Supplementary Video</a>\] [<a href="javascript:toggleInfo(&#39;Hong26a&#39;,&#39;bibtex&#39;)">Cite</a>]</td>
 </tr>
 
 <tr data-pub-type="journal" data-pub-id="Hong26a" id="abs_Hong26a" class="abstract noshow">
@@ -151,16 +312,12 @@ function filterPublications(pubtype, button) {
 
 <tr data-pub-type="conference" data-pub-id="Skifstad26a" id="Skifstad26a">
 	<td markdown="span"><br><img src="../images/icml_26_alqr_02.png" onmouseover="this.src='../images/icml_26_alqr_01.png'" onmouseout="this.src='../images/icml_26_alqr_02.png'" />   </td>
-<<<<<<< HEAD
 	<td markdown="span"><br>[C31]</td>
-=======
-	<td markdown="span"><br>[C30]</td>
->>>>>>> d4adf1b (merged conf and jour)
 	<td markdown="span"><br>**Local Linearity of LLMs Enables Activation Steering via Model-Based Linear Optimal Control** <br> 
 		<em>Julian Skifstad, Xinyue Annie Yang, **Glen Chou**</em> <br> 
 		 Proceedings of the 43rd International Conference on Machine Learning (ICML), July 2026. <br>
 		[<a href="javascript:toggleInfo(&#39;Skifstad26a&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Skifstad26a&#39;); ">Abstract</a>]
-                \[[arXiv](https://arxiv.org/abs/2604.19018)\] \[<a href="https://arxiv.org/pdf/2604.19018">PDF</a>\] \[<a href="https://github.com/trustworthyrobotics/lqr-activation-steering">Code</a>\] [<a href="javascript:toggleInfo(&#39;Skifstad26a&#39;,&#39;bibtex&#39;)">Cite</a>]<br>
+                \[[arXiv](https://arxiv.org/abs/2604.19018)\] \[<a href="https://arxiv.org/pdf/2604.19018">PDF</a>\] \[<a href="https://trustworthyrobotics.github.io/a_lqr_site/">Project Website</a>\] \[<a href="https://github.com/trustworthyrobotics/lqr-activation-steering">Code</a>\] \[<a href="https://www.youtube.com/watch?v=M7cinNiVvZs">Video</a>\] [<a href="javascript:toggleInfo(&#39;Skifstad26a&#39;,&#39;bibtex&#39;)">Cite</a>]<br>
     </td>
 </tr>
 
@@ -176,11 +333,7 @@ function filterPublications(pubtype, button) {
 
 <tr data-pub-type="conference" data-pub-id="Fang26a" id="Fang26a">
 	<td markdown="span"><br><img src="../images/rss_26_gpu.jpg" onmouseover="this.src='../images/rss_26_gpu.gif'" onmouseout="this.src='../images/rss_26_gpu.jpg'" />   </td>
-<<<<<<< HEAD
 	<td markdown="span"><br>[C30]</td>
-=======
-	<td markdown="span"><br>[C29]</td>
->>>>>>> d4adf1b (merged conf and jour)
 	<td markdown="span"><br>**Safe Large-Scale Robust Nonlinear MPC in Milliseconds via Reachability-Constrained System Level Synthesis on the GPU** <br> 
 		<em>Jeffrey Fang, **Glen Chou**</em> <br> 
 		 Proceedings of Robotics: Science and Systems (RSS) XXII, July 2026. <br>
@@ -201,11 +354,7 @@ function filterPublications(pubtype, button) {
 
 <tr data-pub-type="conference" data-pub-id="Li26b" id="Li26b">
 	<td markdown="span"><br><img src="../images/rss_26_contact.jpg" onmouseover="this.src='../images/rss_26_contact.gif'" onmouseout="this.src='../images/rss_26_contact.jpg'" />   </td>
-<<<<<<< HEAD
 	<td markdown="span"><br>[C29]</td>
-=======
-	<td markdown="span"><br>[C28]</td>
->>>>>>> d4adf1b (merged conf and jour)
 	<td markdown="span"><br>**Certified Gradient-Based Contact-Rich Manipulation via Smoothing-Error Reachable Tubes** <br> 
 		<em>Wei-Chen Li, **Glen Chou**</em> <br> 
 		 Proceedings of Robotics: Science and Systems (RSS) XXII, July 2026. <br>
@@ -226,11 +375,7 @@ function filterPublications(pubtype, button) {
 
 <tr data-pub-type="conference" data-pub-id="Shen26a" id="Shen26a">
 	<td markdown="span"><br><img src="../images/rss_26_taylor.jpg" onmouseover="this.src='../images/rss_26_taylor.gif'" onmouseout="this.src='../images/rss_26_taylor.jpg'" />   </td>
-<<<<<<< HEAD
 	<td markdown="span"><br>[C28]</td>
-=======
-	<td markdown="span"><br>[C27]</td>
->>>>>>> d4adf1b (merged conf and jour)
 	<td markdown="span"><br>**Parallel Differentiable Reachability for Learning and Planning with Certified Neural Dynamics and Controllers** <br> 
 		<em>Keyi Shen, **Glen Chou**</em> <br> 
 		 Proceedings of Robotics: Science and Systems (RSS) XXII, July 2026. <br>
@@ -251,11 +396,7 @@ function filterPublications(pubtype, button) {
 
 <tr data-pub-type="conference" data-pub-id="Leeman26a" id="Leeman26a">
 	<td markdown="span"><br><img src="../images/rss_26_vision.jpg" onmouseover="this.src='../images/rss_26_vision.gif'" onmouseout="this.src='../images/rss_26_vision.jpg'" />   </td>
-<<<<<<< HEAD
 	<td markdown="span"><br>[C27]</td>
-=======
-	<td markdown="span"><br>[C26]</td>
->>>>>>> d4adf1b (merged conf and jour)
 	<td markdown="span"><br>**VISION-SLS: Safe Perception-Based Control from Learned Visual Representations via System Level Synthesis** <br> 
 		<em>Antoine Leeman\*, Shuyu Zhan\*, Melanie Zeilinger, **Glen Chou**</em> <br> 
 		 Proceedings of Robotics: Science and Systems (RSS) XXII, July 2026. <br>
@@ -274,7 +415,6 @@ function filterPublications(pubtype, button) {
    journal = {Proceedings of Robotics: Science and Systems (RSS) XXII},<br>   Title = "VISION-SLS: Safe Perception-Based Control from Learned Visual Representations via System Level Synthesis",<br>   year = {2026}<br>}</pre></td>
 </tr>
 
-<<<<<<< HEAD
 <tr data-pub-type="conference" data-pub-id="Brown26" id="Brown26">
 	<td markdown="span"><br><img src="../images/Brown26.png" onmouseover="this.src='../images/Brown26.png'" onmouseout="this.src='../images/Brown26.png'" />   </td>
 	<td markdown="span"><br>[C26]</td>
@@ -282,7 +422,7 @@ function filterPublications(pubtype, button) {
 		<em>Abinay Brown, **Glen Chou**</em> <br> 
 		 Proceedings of the 27th AIAA International Space Planes and Hypersonic Systems and Technologies Conference, July 2026. <br>
 		[<a href="javascript:toggleInfo(&#39;Brown26&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Brown26&#39;); ">Abstract</a>]
-                \[<a href="https://glenchou.github.io/papers/Brown26.pdf">PDF</a>\] [<a href="javascript:toggleInfo(&#39;Brown26&#39;,&#39;bibtex&#39;)">Cite</a>]<br>
+                \[<a href="https://glenchou.github.io/papers/Brown26.pdf">PDF</a>\] \[<a href="https://doi.org/10.2514/6.2026-5049">DOI</a>\] [<a href="javascript:toggleInfo(&#39;Brown26&#39;,&#39;bibtex&#39;)">Cite</a>]<br>
     </td>
 </tr>
 
@@ -296,8 +436,6 @@ function filterPublications(pubtype, button) {
    journal = {Proceedings of the 27th AIAA International Space Planes and Hypersonic Systems and Technologies Conference},<br>   Title = "Design and Trajectory Optimization of a Shape-Morphing Aeroshell for Skip-Entry Orbital Inclination Change",<br>   year = {2026}<br>}</pre></td>
 </tr>
 
-=======
->>>>>>> d4adf1b (merged conf and jour)
 <tr data-pub-type="conference" data-pub-id="Nath26b" id="Nath26b">
 	<td markdown="span"><br><img src="../images/l4dc26_koop.jpg" onmouseover="this.src='../images/l4dc26_koop.gif'" onmouseout="this.src='../images/l4dc26_koop.jpg'" />   </td>
 	<td markdown="span"><br>[C25]</td>
@@ -369,7 +507,7 @@ function filterPublications(pubtype, button) {
 		<em>Chengyue Huang\*, Mellon M. Zhang\*, Robert Azarcon, **Glen Chou**, Zsolt Kira</em> <br> 
 		 Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), June 2026. <br>
 		[<a href="javascript:toggleInfo(&#39;Huang26a&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Huang26a&#39;); ">Abstract</a>]
-                \[[arXiv](https://arxiv.org/abs/2511.19878)\] \[<a href="https://arxiv.org/pdf/2511.19878">PDF</a>\] \[<a href="https://mapsvla.github.io/">Project Website</a>\] \[<a href="https://github.com/chengyuehuang511/MAPS-VLA">Code</a>\] [<a href="javascript:toggleInfo(&#39;Huang26a&#39;,&#39;bibtex&#39;)">Cite</a>]
+                \[[arXiv](https://arxiv.org/abs/2511.19878)\] \[<a href="https://arxiv.org/pdf/2511.19878">PDF</a>\] \[<a href="https://mapsvla.github.io/">Project Website</a>\] \[<a href="https://github.com/chengyuehuang511/MAPS-VLA">Code</a>\] \[<a href="https://www.youtube.com/watch?v=OIC3IQsa35k">Video</a>\] [<a href="javascript:toggleInfo(&#39;Huang26a&#39;,&#39;bibtex&#39;)">Cite</a>]
     </td>
 </tr>
 
