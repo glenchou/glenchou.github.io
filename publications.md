@@ -74,7 +74,7 @@ function filterPublications(pubtype, button) {
 
 </script>
 
-## Preprints
+## Preprints 
 
 <hr>
 
