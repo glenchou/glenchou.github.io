@@ -74,7 +74,7 @@ function filterPublications(pubtype, button) {
 
 </script>
 
-## Preprints 
+## Preprints
 
 <hr>
 
@@ -87,22 +87,22 @@ function filterPublications(pubtype, button) {
 <tbody>
 
 
-<tr id="Fang26b">
-	<td markdown="span"><br><img src="../images/Fang26b_01.png" onmouseover="this.src='../images/Fang26b_02.png'" onmouseout="this.src='../images/Fang26b_01.png'" />   </td>
+<tr id="Hong26c">
+	<td markdown="span"><br><img src="../images/TBD.jpg" onmouseover="this.src='../images/TBD.gif'" onmouseout="this.src='../images/TBD.jpg'" />   </td>
 	<td markdown="span"></td>
-	<td markdown="span"><br>**GPU-Parallel Linearization Error Bounds for Real-Time Robust Optimal Control of Nonlinear and Neural Network Dynamics** <br> 
-		<em>Jeffrey Fang\*, Keyi Shen\*, Anutam Srinivasan, **Glen Chou**</em> <br> 
-		July 2026. <br>
-                [<a href="javascript:toggleInfo(&#39;Fang26b&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Fang26b&#39;); ">Abstract</a>]
-                 \[[arXiv](https://arxiv.org/abs/2607.01203)\] \[[PDF](https://arxiv.org/pdf/2607.01203)\] \[<a href="https://trustworthyrobotics.github.io/gpusls-leo/">Project Website</a>\] \[<a href="https://github.com/trustworthyrobotics/gpusls-leo">Code</a>\] [<a href="javascript:toggleInfo(&#39;Fang26b&#39;,&#39;bibtex&#39;)">Cite</a>]</td>
+	<td markdown="span"><br>**Steering Robustness into World Action Models via Mechanistic Interpretability and Optimal Control** <br> 
+		<em>Jihoon Hong\*, Julian Skifstad\*, Qiyue Dai, Alice Chan, **Glen Chou**</em> <br> 
+		June 2026. <br>
+                [<a href="javascript:toggleInfo(&#39;Hong26c&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Hong26c&#39;); ">Abstract</a>]
+                 \[[arXiv](TBD)\] \[[PDF](https://glenchou.github.io/papers/Hong26c.pdf)\] \[<a href="https://trustworthyrobotics.github.io/steering_robust_wam_site/">Project Website</a>\] \[<a href="https://github.com/trustworthyrobotics/steering_robustness_WAMs">Code</a>\] \[<a href="https://www.youtube.com/watch?v=glPFcKFUvWo">Video</a>\] [<a href="javascript:toggleInfo(&#39;Hong26c&#39;,&#39;bibtex&#39;)">Cite</a>]</td>
 </tr>
-<tr id="abs_Fang26b" class="abstract noshow">
-    <td colspan="3"><div align="justify"> <b>Abstract</b>: This paper studies real-time robust optimal control for uncertain nonlinear systems, where linear time-varying (LTV) approximations make planning tractable but require sound linearization error bounds (LEBs) to guarantee robust constraint satisfaction. We develop tight, differentiable, GPU-parallel LEBs for LTV approximations of nonlinear and neural network (NN) dynamics. For analytic dynamics, we introduce path-based Hessian bounds that are tighter than standard interval methods. For NN dynamics, we derive certified LEBs using NN verifier-generated affine relaxations and local Jacobian corrections. We adapt a GPU-parallel system-level synthesis LTV-based robust control solver to be compatible with these LEBs by extending it to handle right-invertible disturbance matrices and non-zero-centered disturbance sets for tight zonotopic uncertainty propagation. Our method, GPUSLS-LEO, enables online optimization of robust feedback policies that account for linearization error, producing tight, formally verified reachable tubes. On complex nonlinear and NN dynamics up to 168 state dimensions, our method can compute robust control policies on the GPU at rates up to 67 Hz, reducing solve times and conservativeness relative to baselines while preserving formal guarantees and real-time performance. </div></td>
+<tr id="abs_Hong26c" class="abstract noshow">
+    <td colspan="3"><div align="justify"> <b>Abstract</b>: World Action Models (WAMs) enable semantically- and physically-informed control but are brittle under distribution shift. In this work, we use mechanistic interpretability to study how robustness-relevant perturbations are represented in WAM activation space. Comparing activations across successful and unsuccessful rollouts, we find some WAM architectures exhibit low-dimensional linear separability for robustness-critical features, while others do not. This motivates the use of contrastive activation directions for training-free WAM steering. We also show that local linearity in WAM activation dynamics enables efficient feedback steering via model-based optimal control, yielding World-Action Linear Quadratic Regulator (WA-LQR), a minimally-invasive reduced-order LQR controller. Via mechanistic evaluations, we predict strong steerability in the Cosmos-Policy and DiT4DiT models but weak steerability in LingBot-VA, consistent with steering intervention results. On Cosmos-Policy and DiT4DiT, WA-LQR generalizes contrastive directions to new tasks and improves robustness to camera, gripper, and visual-noise perturbations over unsteered and prompt steering baselines. </div></td>
   </tr>
-<tr id="bib_Fang26b" class="bibtex noshow">
+<tr id="bib_Hong26c" class="bibtex noshow">
 <td colspan="3"><b>BibTeX</b>:
-  <pre>@inproceedings{Fang26b,<br>   Author = "Jeffrey Fang, Keyi Shen, Anutam Srinivasan, Glen Chou",
-   Title = "GPU-Parallel Linearization Error Bounds for Real-Time Robust Optimal Control of Nonlinear and Neural Network Dynamics",<br>   year = {2026}<br>}</pre></td>
+  <pre>@inproceedings{Hong26c,<br>   Author = "Jihoon Hong, Julian Skifstad, Qiyue Dai, Alice Chan, Glen Chou",
+   Title = "Steering Robustness into World Action Models via Mechanistic Interpretability and Optimal Control",<br>   year = {2026}<br>}</pre></td>
 </tr>
 
 <tr id="Li26c">
@@ -213,24 +213,6 @@ function filterPublications(pubtype, button) {
    Title = "Feedback Motion Planning for Stochastic Nonlinear Systems with Signal Temporal Logic Specifications",<br>   year = {2026}<br>}</pre></td>
 </tr>
 
-<tr id="Gould26">
-	<td markdown="span"><br><img src="../images/Gould26.png" onmouseover="this.src='../images/Gould26.png'" onmouseout="this.src='../images/Gould26.png'" />   </td>
-	<td markdown="span"></td>
-	<td markdown="span"><br>**Over-Approximating Minimizer Sets of Constrained Convex Programs with Parametric Uncertainty via Reachability Analysis** <br> 
-		<em>Brendan Gould\*, Chih-Yuan Chiu\*, Antoine P. Leeman, Kyriakos G. Vamvoudakis, Samuel Coogan, **Glen Chou**</em> <br> 
-		March 2026. <br>
-                [<a href="javascript:toggleInfo(&#39;Gould26&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Gould26&#39;); ">Abstract</a>]
-                 \[[arXiv](https://arxiv.org/abs/2604.27355)\] \[[PDF](https://arxiv.org/pdf/2604.27355)\] [<a href="javascript:toggleInfo(&#39;Gould26&#39;,&#39;bibtex&#39;)">Cite</a>]</td>
-</tr>
-<tr id="abs_Gould26" class="abstract noshow">
-    <td colspan="3"><div align="justify"> <b>Abstract</b>: We study the set of solutions to a parameterized, strongly convex optimization problem whose cost depends on uncertain, bounded parameters. We compute a certified outer approximation of the corresponding set of optimizers, using convergence properties of the projected gradient descent (PGD) algorithm for convex programs. Concretely, by treating the cost parameter as constant but unknown, we interpret the PGD iterates as an uncertain dynamical system and analyze its forward reachable sets. Since PGD converges exponentially to the unique optimizer for each fixed parameter, these reachable sets provide outer approximations of the optimizer set, with an explicit error bound that decays exponentially with the iteration count. We apply system-level synthesis (SLS) on the PGD dynamics to optimize the step-size sequence and obtain reachable-set over-approximations. Our method outperforms existing baselines in over-approximating, with low conservativeness, the minimizer sets of convex programs with uncertain costs and high-dimensional decision variables. </div></td>
-  </tr>
-<tr id="bib_Gould26" class="bibtex noshow">
-<td colspan="3"><b>BibTeX</b>:
-  <pre>@inproceedings{Gould26,<br>   Author = "Brendan Gould, Chih-Yuan Chiu, Antoine P. Leeman, Kyriakos G. Vamvoudakis, Samuel Coogan, Glen Chou",
-   Title = "Over-Approximating Minimizer Sets of Constrained Convex Programs with Parametric Uncertainty via Reachability Analysis",<br>   year = {2026}<br>}</pre></td>
-</tr>
-
 
 </tbody>
 </table>
@@ -288,7 +270,43 @@ function filterPublications(pubtype, button) {
   }
 </style>
 
+<tr data-pub-type="conference" data-pub-id="Fang26b" id="Fang26b">
+	<td markdown="span"><br><img src="../images/Fang26b_01.png" onmouseover="this.src='../images/Fang26b_02.png'" onmouseout="this.src='../images/Fang26b_01.png'" />   </td>
+	<td markdown="span">[C33]</td>
+	<td markdown="span"><br>**GPU-Parallel Linearization Error Bounds for Real-Time Robust Optimal Control of Nonlinear and Neural Network Dynamics** <br> 
+		<em>Jeffrey Fang\*, Keyi Shen\*, Anutam Srinivasan, **Glen Chou**</em> <br> 
+		Proceedings of the 65th IEEE Conference on Decision and Control (CDC), December 2026.  <br>
+                [<a href="javascript:toggleInfo(&#39;Fang26b&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Fang26b&#39;); ">Abstract</a>]
+                 \[[arXiv](https://arxiv.org/abs/2607.01203)\] \[[PDF](https://arxiv.org/pdf/2607.01203)\] \[<a href="https://trustworthyrobotics.github.io/gpusls-leo/">Project Website</a>\] \[<a href="https://github.com/trustworthyrobotics/gpusls-leo">Code</a>\] [<a href="javascript:toggleInfo(&#39;Fang26b&#39;,&#39;bibtex&#39;)">Cite</a>]</td>
+</tr>
+<tr data-pub-type="journal" data-pub-id="Fang26b" id="abs_Fang26b" class="abstract noshow">
+    <td colspan="3"><div align="justify"> <b>Abstract</b>: This paper studies real-time robust optimal control for uncertain nonlinear systems, where linear time-varying (LTV) approximations make planning tractable but require sound linearization error bounds (LEBs) to guarantee robust constraint satisfaction. We develop tight, differentiable, GPU-parallel LEBs for LTV approximations of nonlinear and neural network (NN) dynamics. For analytic dynamics, we introduce path-based Hessian bounds that are tighter than standard interval methods. For NN dynamics, we derive certified LEBs using NN verifier-generated affine relaxations and local Jacobian corrections. We adapt a GPU-parallel system-level synthesis LTV-based robust control solver to be compatible with these LEBs by extending it to handle right-invertible disturbance matrices and non-zero-centered disturbance sets for tight zonotopic uncertainty propagation. Our method, GPUSLS-LEO, enables online optimization of robust feedback policies that account for linearization error, producing tight, formally verified reachable tubes. On complex nonlinear and NN dynamics up to 168 state dimensions, our method can compute robust control policies on the GPU at rates up to 67 Hz, reducing solve times and conservativeness relative to baselines while preserving formal guarantees and real-time performance. </div></td>
+  </tr>
+<tr data-pub-type="journal" data-pub-id="Fang26b" id="bib_Fang26b" class="bibtex noshow">
+<td colspan="3"><b>BibTeX</b>:
+  <pre>@inproceedings{Fang26b,<br>   Author = "Jeffrey Fang, Keyi Shen, Anutam Srinivasan, Glen Chou",
+   Title = "GPU-Parallel Linearization Error Bounds for Real-Time Robust Optimal Control of Nonlinear and Neural Network Dynamics",
+   journal = {Proceedings of the 65th IEEE Conference on Decision and Control (CDC)}, <br>  year = {2026}<br>}</pre></td>
+</tr>
 
+<tr data-pub-type="conference" data-pub-id="Gould26" id="Gould26">
+	<td markdown="span"><br><img src="../images/Gould26.png" onmouseover="this.src='../images/Gould26.png'" onmouseout="this.src='../images/Gould26.png'" />   </td>
+	<td markdown="span">[C32]</td>
+	<td markdown="span"><br>**Over-Approximating Minimizer Sets of Constrained Convex Programs with Parametric Uncertainty via Reachability Analysis** <br> 
+		<em>Brendan Gould\*, Chih-Yuan Chiu\*, Antoine P. Leeman, Kyriakos G. Vamvoudakis, Samuel Coogan, **Glen Chou**</em> <br> 
+		Proceedings of the 65th IEEE Conference on Decision and Control (CDC), December 2026. <br>
+                [<a href="javascript:toggleInfo(&#39;Gould26&#39;,&#39;abstract&#39;)" onclick="javascript:pageTracker._trackPageview(&#39;/abstracts/Gould26&#39;); ">Abstract</a>]
+                 \[[arXiv](https://arxiv.org/abs/2604.27355)\] \[[PDF](https://arxiv.org/pdf/2604.27355)\] [<a href="javascript:toggleInfo(&#39;Gould26&#39;,&#39;bibtex&#39;)">Cite</a>]</td>
+</tr>
+<tr data-pub-type="journal" data-pub-id="Gould26" id="abs_Gould26" class="abstract noshow">
+    <td colspan="3"><div align="justify"> <b>Abstract</b>: We study the set of solutions to a parameterized, strongly convex optimization problem whose cost depends on uncertain, bounded parameters. We compute a certified outer approximation of the corresponding set of optimizers, using convergence properties of the projected gradient descent (PGD) algorithm for convex programs. Concretely, by treating the cost parameter as constant but unknown, we interpret the PGD iterates as an uncertain dynamical system and analyze its forward reachable sets. Since PGD converges exponentially to the unique optimizer for each fixed parameter, these reachable sets provide outer approximations of the optimizer set, with an explicit error bound that decays exponentially with the iteration count. We apply system-level synthesis (SLS) on the PGD dynamics to optimize the step-size sequence and obtain reachable-set over-approximations. Our method outperforms existing baselines in over-approximating, with low conservativeness, the minimizer sets of convex programs with uncertain costs and high-dimensional decision variables. </div></td>
+  </tr>
+<tr data-pub-type="journal" data-pub-id="Gould26" id="bib_Gould26" class="bibtex noshow">
+<td colspan="3"><b>BibTeX</b>:
+  <pre>@inproceedings{Gould26,<br>   Author = "Brendan Gould, Chih-Yuan Chiu, Antoine P. Leeman, Kyriakos G. Vamvoudakis, Samuel Coogan, Glen Chou",
+   Title = "Over-Approximating Minimizer Sets of Constrained Convex Programs with Parametric Uncertainty via Reachability Analysis", 
+   journal = {Proceedings of the 65th IEEE Conference on Decision and Control (CDC)}, <br>   year = {2026}<br>}</pre></td>
+</tr>
 
 <tr data-pub-type="journal" data-pub-id="Hong26a" id="Hong26a">
 	<td markdown="span"><br><img src="../images/ral_26_polymerge.jpg" onmouseover="this.src='../images/ral_26_polymerge.gif'" onmouseout="this.src='../images/ral_26_polymerge.jpg'" />   </td>
