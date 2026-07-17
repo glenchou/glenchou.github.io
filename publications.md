@@ -88,7 +88,7 @@ function filterPublications(pubtype, button) {
 
 
 <tr id="Hong26c">
-	<td markdown="span"><br><img src="../images/TBD.jpg" onmouseover="this.src='../images/TBD.gif'" onmouseout="this.src='../images/TBD.jpg'" />   </td>
+	<td markdown="span"><br><img src="../images/Hong26c_01.jpg" onmouseover="this.src='../images/Hong26c_02.gif'" onmouseout="this.src='../images/Hong26c_01.jpg'" />   </td>
 	<td markdown="span"></td>
 	<td markdown="span"><br>**Steering Robustness into World Action Models via Mechanistic Interpretability and Optimal Control** <br> 
 		<em>Jihoon Hong\*, Julian Skifstad\*, Qiyue Dai, Alice Chan, **Glen Chou**</em> <br> 

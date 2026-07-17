@@ -20,6 +20,7 @@ title: Glen Chou
 
 <div style="width: 95%; max-width: 1600px; overflow: hidden; border: 1px solid #ccc; padding: 10px; margin:  0 auto;">
   <div id="content" style="max-height: 260px; overflow: hidden; transition: max-height 0.5s ease;">
+    <i><b>Jan. 31, 2026.</b></i> Two papers (on <a href="https://arxiv.org/abs/2607.01203">fast and tight computation of linearization error bounds for robust nonlinear trajectory optimization</a> and <a href="https://arxiv.org/abs/2604.27355">overapproximating the solution set of convex optimization problems via reachability analysis</a>) accepted to CDC 2026.<br>
     <i><b>Jun. 17, 2026.</b></i> Our paper on <a href="https://arxiv.org/abs/2601.01076">accelerating reachability analysis with Koopman operators and conformal prediction</a>) was a <span style="color:  red;">best paper finalist at L4DC 2026 (1.8% acceptance rate)</span>!<br>
     <i><b>Apr. 30, 2026.</b></i> One paper (on <a href="https://arxiv.org/abs/2604.19018">using linear control theory (LQR!) to steer the outputs of large language models to be safer</a>) accepted to ICML 2026.<br>
     <i><b>Apr. 28, 2026.</b></i> One paper (on <a href="https://athlon76.github.io/PolyMerge-website/">compressing 3D Gaussian splats for safe resource-constrained navigation</a>) accepted to the IEEE Robotics and Automation Letters (RA-L).<br>
